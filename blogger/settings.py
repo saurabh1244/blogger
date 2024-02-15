@@ -18,7 +18,7 @@ SECRET_KEY  = os.getenv('SECRET_KEY','django-insecure-icx$hr^)qz9e5!^8y43%&zzw1h
 # DEBUG = True
 DEBUG = os.getenv('DEBUG','True') == 'True'
 
-ALLOWED_HOSTS = ['starfish-app-7vsoo.ondigitalocean.app','djangobeat.live']
+ALLOWED_HOSTS = ['starfish-app-7vsoo.ondigitalocean.app','djangobeat.live','localhost']
 
 
 # Application definition
