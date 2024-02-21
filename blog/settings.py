@@ -31,7 +31,7 @@ ALLOWED_HOSTS = ['sea-turtle-app-y4ms2.ondigitalocean.app','djangobeat.live','lo
 # Application definition
 
 INSTALLED_APPS = [
-   
+    'jazzmin',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
