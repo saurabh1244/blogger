@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-nauf-ffux!z*rdl0_ny656&^691ie=0ea^!ntu6#+!-mbv3)-#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['starfish-app-7vsoo.ondigitalocean.app','djangobeat.live','localhost','*']
+ALLOWED_HOSTS = ['sea-turtle-app-y4ms2.ondigitalocean.app','djangobeat.live']
 
 
 # Application definition
