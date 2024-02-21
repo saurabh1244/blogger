@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-nauf-ffux!z*rdl0_ny656&^691ie=0ea^!ntu6#+!-mbv3)-#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['starfish-app-7vsoo.ondigitalocean.app','djangobeat.live','localhost']
+ALLOWED_HOSTS = ['starfish-app-7vsoo.ondigitalocean.app','djangobeat.live','localhost','*']
 
 
 # Application definition
@@ -121,6 +121,8 @@ STATIC_URL = 'static/'
 MEDIA_URL = 'media/'
 
 MEDIA_ROOT = BASE_DIR / 'media'
+STATIC_ROOT = BASE_DIR / 'staticfiles'
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
